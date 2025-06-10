@@ -327,8 +327,9 @@ flash_boot() {
           magisk_patched=$?;
         fi;
         _VARIANT=$(file_getprop $AKHOME/anykernel.sh kernel.string | awk '{print $NF}')
-        if [ "$magisk_patched" -eq 1 ] && [ "$KERNEL_VARIANT" != "NKSU" ]; then
-            abort "Magisk is Installed, but you're installing the _VARIANT variant!"
+        if [ "$magisk_patched" -eq 1 ] && [ "$_VARIANT" != "NKSU" ]; then
+            # KernelSU variant is installed
+            abort "Magisk is Installed, but you're installing the $_VARIANT variant!"
         fi
         if [ "$magisk_patched" -eq 1 ]; then
           ui_print " " "Magisk detected! Patching kernel so reflashing Magisk is not necessary...";
