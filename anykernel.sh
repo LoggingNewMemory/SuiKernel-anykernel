@@ -30,6 +30,20 @@ PATCH_VBMETA_FLAG=auto;
 # import functions/variables and setup patching - see for reference (DO NOT REMOVE)
 . tools/ak3-core.sh
 
+#=================================================
+#   Generated on https://www.asciiart.eu/text-to-ascii-art
+#=================================================
+ui_print " "
+ui_print " ____        _ _  __                    _"
+ui_print "/ ___| _   _(_) |/ /___ _ __ _ __   ___| |"
+ui_print "\___ \| | | | | ' // _ \ '__| '_ \ / _ \ |"
+ui_print " ___) | |_| | | . \  __/ |  | | | |  __/ |"
+ui_print "|____/ \__,_|_|_|\_\___|_|  |_| |_|\___|_|"
+ui_print " "
+ui_print "=========================================="
+ui_print "           By: Kanagawa Yamada            "
+ui_print "=========================================="
+ui_print " "
 # check kernel version
 kernel_version=$(cat /proc/version | awk -F '-' '{print $1}' | awk '{print $3}')
 case "$kernel_version" in
