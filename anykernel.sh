@@ -30,7 +30,7 @@ PATCH_VBMETA_FLAG=auto;
 # import functions/variables and setup patching - see for reference (DO NOT REMOVE)
 . tools/ak3-core.sh
 ui_print " "
-ui_print "-------------------"
+ui_print "==================="
 ui_print "     SuiKernel     "
 ui_print "==================="
 ui_print "By: Kanagawa Yamada"
