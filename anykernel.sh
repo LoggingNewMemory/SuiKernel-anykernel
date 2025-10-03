@@ -31,7 +31,7 @@ PATCH_VBMETA_FLAG=auto;
 . tools/ak3-core.sh
 ui_print " "
 ui_print "SuiKernel"
-ui_print "星街すいせい X 神奈川山田"
+ui_print "Hoshimachi Suisei X Kanagawa Yamada"
 ui_print " "
 ui_print "By: Kanagawa Yamada"
 ui_print " "
